@@ -2,14 +2,16 @@
 
 ## Lancement de l'environnement
 
+Lancement de la blockchain ganache dans un container docker configuré à partir du fichier `docker-compose.yml`
+
 ```sh
-docker compose run truffle bash
+docker compose up
 ```
 
-> `truffle` correspond au nom du service déclaré dans le fichier `docker-compose.yml` et non à la commande `truffle` elle-même.
+Vérification de la version de Truffle
 
 ```sh
-> truffle version
+> docker compose exec truffle truffle version
 Truffle v5.6.1 (core: 5.6.1)
 Ganache v7.4.4
 Solidity v0.5.16 (solc-js)
