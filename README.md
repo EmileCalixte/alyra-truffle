@@ -19,6 +19,14 @@ Node v16.15.1
 Web3.js v1.7.4
 ```
 
+## Déploiement des contrats
+
+```sh
+docker compose exec truffle truffle migrate
+```
+
+> `$ truffle migrate` est équivalent à lancer `$ truffle compile` puis `$ truffle deploy`
+
 ## Etapes
 
 Consulter les [releases](https://github.com/EmileCalixte/alyra-truffle/releases) pour voir les différentes étapes de création et d'utilisation d'un projet Truffle.
