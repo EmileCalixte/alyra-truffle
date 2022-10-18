@@ -4,7 +4,7 @@
 
 ### Paramètres d'environnement
 
-Créer un fichier `.env` à partir de `.env.default` et renseigner un URL RPC (par exemple infura)
+Créer un fichier `.env` à partir de `.env.default` et renseigner une clé Infura
 
 ### Lancement de l'environnement
 
