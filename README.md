@@ -1,6 +1,12 @@
 # TP Truffle
 
-## Lancement de l'environnement
+## Démarrage
+
+### Paramètres d'environnement
+
+Créer un fichier `.env` à partir de `.env.default` et renseigner un URL RPC (par exemple infura)
+
+### Lancement de l'environnement
 
 Lancement de la blockchain ganache dans un container docker configuré à partir du fichier `docker-compose.yml`
 

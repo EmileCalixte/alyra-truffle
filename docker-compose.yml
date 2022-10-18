@@ -9,4 +9,4 @@ services:
       - NODE_ENV=development
     ports:
       - 8545:8545
-    command: ganache --server.host 0.0.0.0 --wallet.mnemonic "bleak capital wish that develop impulse regular magnet verb spatial west fever"
+    command: sh -c "npm install --verbose && ganache --server.host 0.0.0.0 --wallet.mnemonic '${MNEMONIC}'"
