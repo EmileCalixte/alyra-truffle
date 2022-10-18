@@ -31,6 +31,12 @@ Web3.js v1.7.4
 docker compose exec truffle truffle migrate
 ```
 
+Pour déployer sur le testnet Goerli : 
+
+```sh
+docker compose exec truffle truffle migrate --network goerli
+```
+
 > `$ truffle migrate` est équivalent à lancer `$ truffle compile` puis `$ truffle deploy`
 
 ## Etapes
