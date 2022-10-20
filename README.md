@@ -39,6 +39,12 @@ docker compose exec truffle truffle migrate --network goerli
 
 > `$ truffle migrate` est équivalent à lancer `$ truffle compile` puis `$ truffle deploy`
 
+## Tests
+
+```sh
+docker compose exec truffle truffle test
+```
+
 ## Etapes
 
 Consulter les [releases](https://github.com/EmileCalixte/alyra-truffle/releases) pour voir les différentes étapes de création et d'utilisation d'un projet Truffle.
